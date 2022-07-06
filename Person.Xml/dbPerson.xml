@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<persons>
+	<person>
+    <id>6b4bc8f1-497f-48cf-b7ab-d93b6e2a1aec</id>
+		<age>37</age>
+		<firstName>Tom</firstName>
+		<lastName>Smith</lastName>
+	</person>
+	<person>
+    <id>951fa115-d3f9-44cd-8107-1a94e02426c9</id>
+		<age>34</age>
+		<firstName>Vle</firstName>
+		<lastName>Vleyan</lastName>
+	</person>
+</persons>
