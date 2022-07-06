@@ -70,9 +70,9 @@ namespace Person.Xml
                             .FirstOrDefault();
             if (personUpdate != null)
             {
-                var updatedAge = personUpdate.Element("age").Value = person.Age.ToString();
-                var updatedFirstName = personUpdate.Element("firstName").Value = person.FirstName;
-                var updatedLastName = personUpdate.Element("lastName").Value = person.LastName;
+                personUpdate.Element("age").Value = person.Age.ToString();
+                personUpdate.Element("firstName").Value = person.FirstName;
+                personUpdate.Element("lastName").Value = person.LastName;
                 xml.Save(path);
             }
         }

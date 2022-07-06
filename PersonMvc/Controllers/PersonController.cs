@@ -40,7 +40,7 @@ namespace PersonMvc.Controllers
         public IActionResult Edit(Person.Models.Person person)
         {
             _personService.Update(person);
-            return Redirect("Index");
+            return RedirectToAction("Index");
         }
         public IActionResult Delete(Guid id)
         {
@@ -51,7 +51,7 @@ namespace PersonMvc.Controllers
         public IActionResult Delete(Person.Models.Person person)
         {
             _personService.Delete(person.Id);
-            return Redirect("Index");
+            return RedirectToAction("Index");
         }
     }
 }
